@@ -1,0 +1,53 @@
+.navbar {
+    align-items: center;
+    display: flex;
+    margin: 1.8em 7.8%;
+    
+}
+
+.logo {
+    margin-right: 8em;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.menu--esq {
+    width: 50%;
+    
+}
+
+.menu--dir {
+    width: 19%;
+    
+}
+
+.menu__lista {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__item {
+    margin-right: 3em;
+}
+
+.menu__item a {
+    text-decoration: none;
+    color: var(--cor-texto);
+    font-size: 1.6em;
+}
+
+.selecionado {
+    background-color: var(--cor-destaque);
+    padding: 1.5em 1.8em;
+    border-radius: 0.8em;
+}
+
+.selecionado a {
+    color: var(--cor-branco);
+}
