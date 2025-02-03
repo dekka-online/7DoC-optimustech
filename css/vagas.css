@@ -1,15 +1,22 @@
 .vagas {
-    text-align: center;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 96px 0;
 }
 
-.vagas--texto {
+.vagas__talentos {
+    text-align: center;
+    margin: 64px auto;
+}
+
+.talentos--texto {
     margin-bottom: 64px;
     text-align: center;
     
 }
 
-.label-vagas {
+.label-talentos {
     font-size: 1.4em;
     font-weight: 500;
     color: var(--cor-destaque);
@@ -20,15 +27,58 @@
     border-radius: 50px;
 }
 
-.titulo-vagas {
+.titulo-talentos {
     font-size: 3.6em;
     font-weight: 700;
     color: var(--cor-titulo);
     margin-top: 16px;
 }
 
-.texto-vagas {
+.texto-talentos {
     font-size: 2em;
     color: var(--cor-texto);
     margin: 20px 0 64px 0;
 }
+
+.talentos--imagem {
+    width: 90vw;
+}
+
+.vagas__abertas {
+    margin: 0 auto;
+    width: 768px;
+    
+}
+
+.vagas__area {
+    margin-bottom: 64px;
+}
+
+.area--titulo {
+    font-size: 2em;
+    font-weight: 500;
+    color: var(--cor-titulo);
+    padding-bottom: 8px;
+}
+
+.vaga {
+    border: 1px solid var(--cor-borda);
+    border-radius: 16px;
+    margin: 24px 0;
+    padding: 24px 24px 28px 24px;
+}
+
+.vaga--titulo {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cor-titulo);
+    padding-bottom: 32px;
+}
+
+.vaga--informacoes {
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cor-texto);
+    gap: 24px;
+} 

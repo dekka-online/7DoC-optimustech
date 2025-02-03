@@ -1,0 +1,52 @@
+.formulario {
+    background-color: var(--cor-fundo-rodape);
+    text-align: center;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.formulario-titulo {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--cor-titulo);
+    padding-bottom: 20px;
+}
+
+.formulario-texto {
+    font-size: 20px;
+    color: var(--cor-texto);
+}
+
+.cadastrar-email {
+    padding-top: 40px;
+    padding-bottom: 32px;
+}
+
+.formulario-email {
+    width: 360px;
+    padding: 16px;
+    border: 1px solid #d0d5dd;
+    border-radius: 8px;
+}
+
+.formulario-email::placeholder {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    color: var(--cor-texto);
+}
+
+.cadastrar-email button {
+    background-color: var(--cor-destaque);
+    color: var(--cor-branco);
+    padding: 16px;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+}
+
+.copyright {
+    font-size: 16px;
+    color: var(--cor-copyright);
+}
